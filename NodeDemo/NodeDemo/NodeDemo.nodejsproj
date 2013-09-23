@@ -27,5 +27,10 @@
       <SubType>Content</SubType>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="file1.js">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
